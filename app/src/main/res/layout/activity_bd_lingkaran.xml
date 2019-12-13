@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".bd_lingkaran">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:src="@drawable/rlingkaran"
+        />
+
+    <TextView
+        android:text="Jari-jari :"
+        android:id="@+id/TextView01"
+        android:layout_marginTop="30dp"
+        android:textColor="#2196F3"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText android:text=""
+        android:id="@+id/txtJari"
+        android:layout_marginTop="10dp"
+        android:textColor="#03A9F4"
+        android:textSize="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"/>
+
+    <Button android:text="Hitung Luas"
+        android:background="#9C3C6A81"
+        android:id="@+id/btnHitung"
+        android:textColor="#FFFFFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="hitungLuas"/>
+
+    <TextView
+        android:text="Luas :"
+        android:id="@+id/TextView03"
+        android:textColor="#03A9F4"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText android:text="" android:id="@+id/txtLuas" android:layout_width="fill_parent" android:layout_height="wrap_content" android:editable="false"></EditText>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#9C3C6A81"
+        android:text="Kembali"
+        android:layout_marginTop="70dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

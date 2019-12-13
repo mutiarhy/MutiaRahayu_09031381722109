@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".bd_segitiga">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/rsegitiga"
+        android:layout_height="290dp"
+        />
+
+    <TextView
+        android:text="Alas :"
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <EditText
+        android:text=""
+        android:id="@+id/txtAlas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"/>
+
+    <TextView
+        android:text="Tinggi :"
+        android:textColor="#03A9F4"
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText android:text=""
+        android:textColor="#03A9F4"
+        android:id="@+id/txtTinggi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned|numberDecimal"/>
+
+    <Button android:text="Hitung Luas"
+        android:background="#9C3C6A81"
+        android:id="@+id/btnHitung"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="hitungLuas"/>
+    <TextView
+        android:text="Luas :"
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:text=""
+        android:id="@+id/txtLuas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#9C3C6A81"
+        android:text="Kembali"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginTop="70dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

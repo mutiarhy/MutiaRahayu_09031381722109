@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Rumus" />
+
+    <item
+        android:id="@+id/nav_rumus"
+        android:icon="@drawable/ic_content_paste_black_24dp"
+        android:title="Materi" />
+
+    <item
+        android:id="@+id/nav_latihan"
+        android:icon="@drawable/ic_school_black_24dp"
+        android:title="Latihan" />
+
+</menu>
